@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color:#C40019; 
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 17px;
+}
+
+.input {
+    width: 90%;
+    min-height: 33px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #EBEAEA;
+    color: #2E3652;
+    border: none;
+}
+
+.forget-password {
+    text-align: center;
+    color: #F7DBDC;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    background-color: #C40019;
+}
+
+.second-container {
+    width: 400px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color:#AE0217;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 40px;
+}
+
+.button1 {
+    border-radius: 15px;
+    background-color: #FBFBFD;
+    width: 45%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #CC383F;
+    font-size: 1.2em;
+}
+
+.button2 {
+    color: #CE4147;
+    background-color: #FAFAFC;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.button2 div {
+    width: 70%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    color: #4A5069;
+    font-size: 1.5em;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: 9px;
+
+}
+
+.button2 img {
+    width: 30%;
+    float: left;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    
+}
+
+.join {
+    text-align: center;
+    color: #FAFAFC;
+    padding-top: 20px;
+    font-size: 1.3em;
+}
